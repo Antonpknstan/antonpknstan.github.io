@@ -3,7 +3,7 @@ ini_set("display_errors", 0);
 
 // Set up API key, URL, and model
 $API_KEY = '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';
-$url = 'https://api.openai.com/v1/completions';
+$url = 'https://api.openai.com/v1/chat/completions';
 $model = "gpt-3.5-turbo";
 $chat = "";
 
